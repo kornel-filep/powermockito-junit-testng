@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FullTestSet" object-factory="org.powermock.modules.testng.PowerMockObjectFactory">
+    <test name="AllTests" verbose="2">
+        <packages>
+            <package name="com.asd.*"/>
+        </packages>
+    </test>
+</suite>
